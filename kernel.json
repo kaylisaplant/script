@@ -1,0 +1,16 @@
+{
+    "argv": [
+        "shifter",
+        "--image=docker:kmcbride/jupyter:latest",
+        "{resource_dir}/kernel-helper.sh",
+	"/opt/conda/bin/python",
+	"/usr/local/IParaViewKernel/paraview_kernel.py",
+        "-f",
+        "{connection_file}"
+    ],
+    "display_name": "ParaView Kernel",
+        "language": "python",
+    "env": {
+        "PYTHONPATH": "/home/nonroot/shft/app/paraview/build/lib/python3.8/site-packages"
+      }
+}
