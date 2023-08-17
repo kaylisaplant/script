@@ -1,0 +1,11 @@
+{
+    "argv": [
+        "{resource_dir}/launcher.sh",
+        "/bin/bash -c \"/home/nonroot/entrypoint.sh {connection_file}\""
+    ],
+    "display_name": "ParaView Kernel",
+        "language": "python",
+    "env": {
+        "PYTHONPATH": "/home/nonroot/shft/app/paraview/build/lib/python3.8/site-packages"
+      }
+}
